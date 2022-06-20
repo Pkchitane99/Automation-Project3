@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-18T12:33:28 IST" name="Default suite" finished-at="2022-06-18T12:35:53 IST" duration-ms="144888">
+    <groups>
+    </groups>
+    <test started-at="2022-06-18T12:33:28 IST" name="Default test" finished-at="2022-06-18T12:35:53 IST" duration-ms="144888">
+      <class name="Tests.ZerodhaLoginPageTests">
+        <test-method is-config="true" signature="extendReports()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:33:28 IST" name="extendReports" finished-at="2022-06-18T12:33:29 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extendReports -->
+        <test-method is-config="true" signature="start()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:33:29 IST" name="start" finished-at="2022-06-18T12:33:43 IST" duration-ms="14517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="clickOnSignUp()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:33:43 IST" name="clickOnSignUp" finished-at="2022-06-18T12:33:44 IST" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSignUp -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:33:44 IST" name="closeBrowser" finished-at="2022-06-18T12:33:44 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnSignUp status=SUCCESS method=ZerodhaLoginPageTests.clickOnSignUp()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="start()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:33:44 IST" name="start" finished-at="2022-06-18T12:33:59 IST" duration-ms="15032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="signUpTest()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:33:59 IST" name="signUpTest" finished-at="2022-06-18T12:34:02 IST" duration-ms="2978" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'LIFELINE', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [05e0ffe1339c5d25f4aca63ca233fc86, switchToWindow {handle=SignUp}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\CHITAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63293}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63293/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05e0ffe1339c5d25f4aca63ca233fc86]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'LIFELINE', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [05e0ffe1339c5d25f4aca63ca233fc86, switchToWindow {handle=SignUp}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\CHITAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63293}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63293/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05e0ffe1339c5d25f4aca63ca233fc86
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:1081)
+at Tests.ZerodhaLoginPageTests.signUpTest(ZerodhaLoginPageTests.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:34:03 IST" name="closeBrowser" finished-at="2022-06-18T12:34:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signUpTest status=FAILURE method=ZerodhaLoginPageTests.signUpTest()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="start()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:34:03 IST" name="start" finished-at="2022-06-18T12:34:19 IST" duration-ms="16320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="submitWithInvalidCredentialTest()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:34:19 IST" name="submitWithInvalidCredentialTest" finished-at="2022-06-18T12:34:21 IST" duration-ms="1633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWithInvalidCredentialTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:34:21 IST" name="closeBrowser" finished-at="2022-06-18T12:34:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submitWithInvalidCredentialTest status=SUCCESS method=ZerodhaLoginPageTests.submitWithInvalidCredentialTest()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="start()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:34:21 IST" name="start" finished-at="2022-06-18T12:34:49 IST" duration-ms="27993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="submitWithoutPasswordTest()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:34:49 IST" name="submitWithoutPasswordTest" finished-at="2022-06-18T12:34:49 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitWithoutPasswordTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:34:49 IST" name="closeBrowser" finished-at="2022-06-18T12:34:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submitWithoutPasswordTest status=SUCCESS method=ZerodhaLoginPageTests.submitWithoutPasswordTest()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="start()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:34:49 IST" name="start" finished-at="2022-06-18T12:35:15 IST" duration-ms="25903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="sumbmitWithValidCredentialTest()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:35:15 IST" name="sumbmitWithValidCredentialTest" finished-at="2022-06-18T12:35:44 IST" duration-ms="28670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumbmitWithValidCredentialTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:35:44 IST" name="closeBrowser" finished-at="2022-06-18T12:35:44 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sumbmitWithValidCredentialTest status=SUCCESS method=ZerodhaLoginPageTests.sumbmitWithValidCredentialTest()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="flushResult()[pri:0, instance:Tests.ZerodhaLoginPageTests@72e5a8e]" started-at="2022-06-18T12:35:44 IST" name="flushResult" finished-at="2022-06-18T12:35:53 IST" duration-ms="8974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushResult -->
+      </class> <!-- Tests.ZerodhaLoginPageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
