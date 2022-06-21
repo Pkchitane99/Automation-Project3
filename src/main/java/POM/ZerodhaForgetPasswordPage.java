@@ -1,7 +1,9 @@
 package POM;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class ZerodhaForgetPasswordPage {
 	
@@ -16,4 +18,19 @@ public class ZerodhaForgetPasswordPage {
 	@FindBy(xpath="//a[@class='text-xsmall text-light reset-account-button']") private WebElement backtologin;
 	@FindBy(xpath="//input[@placeholder='Mobile number (as on account)']") private WebElement mobno;
 	
+	public ZerodhaForgetPasswordPage(WebDriver driver) {
+		PageFactory.initElements(driver, this);
+	}
+   public void selectForgetUid() {
+	   forgetUID.click();
+   }
+    public void selectRemUid() {
+    	remUID.click();
+   }
+    public void insertUid() {
+    	uid.sendKeys("DEF123");
+   }
+
+
 }
+
